@@ -1,0 +1,121 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main-body {
+    border: 3px solid #DDD;
+    width: 50%;
+    margin: 30px auto;
+}
+
+.header {
+    margin: 10px;
+}
+
+.lable-inp {
+    color: #20B2AA;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.my-hr {
+    margin-top: 0px;
+    width: 95%;
+    border: 1px solid #20B2AA;
+}
+
+.inp {
+    margin-left: 10px;
+    padding: 10px;
+    border: none;
+    width: 90%;
+    font-size: 20px;
+}
+
+.inp:focus {
+    width: 90%;
+    font-size: 20px;
+    outline: none;
+}
+
+.btn-add {
+    background-color: #20B2AA;
+    font-size: 15px;
+    color: rgb(226, 222, 222);
+    border-color: #20B2AA;
+    padding: 5px;
+    cursor: pointer;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+.btn-add:hover {
+    background-color: #46dfd7;
+}
+
+.sc-hr {
+    border: 1px solid #EEE;
+}
+
+.clear {
+    background-color: black;
+    position: static;
+    margin-top: 5px;
+}
+
+.clear:hover {
+    background-color: rgb(109, 87, 87);
+}
+
+.add {
+    color: aliceblue;
+}
+
+.my-tasks {
+    margin: 20px;
+    list-style-type: none;
+    margin-left: 0px;
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.task {
+    font-size: 20px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    background-color: #20B2AA;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+.drop {
+    color: rgb(226, 226, 148);
+    float: right;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.drop:hover {
+    color: rgb(255, 255, 0);
+    float: right;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:700px) {
+    .main-body {
+        width: 95%;
+    }
+}
+
+@media only screen and (min-width:701px) {
+    .main-body {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    .main-body {
+        width: 50%;
+    }
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TASKS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div class="main-body">
+        <h1 class="header">TaskList</h1>
+        <label class="lable-inp">New task</label>
+        <br>
+        <input class="inp" type="text" id="new_task" placeholder="Enter new task">
+        <hr class="my-hr">
+        <button class="btn-add add" type="submit" onclick="add()">ADD TASK</button>
+        <hr class="sc-hr">
+        <h1 class="header">Tasks</h1>
+        <label class="lable-inp">Filter tasks</label>
+        <br>
+        <input class="inp" type="text" placeholder="Search for task..." id="filter_inp" onkeyup="filterFun()">
+        <hr class="my-hr">
+
+        <ul class="my-tasks" id="my_tasks">
+        </ul>
+        <button class="btn-add clear" onclick="clears()">CLEAR TASKS</button>
+        <script src="/javascript.js"></script>
+    </div>
+</body>
+
+</html>
