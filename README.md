@@ -1,2 +1,2 @@
 # todo-list
-todo list app using html &amp; css &amp; javascript
+# todo list app using html &amp; css &amp; javascript
